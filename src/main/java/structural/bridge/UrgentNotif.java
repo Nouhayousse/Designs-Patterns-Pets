@@ -9,7 +9,7 @@ public class UrgentNotif extends Notification{
     @Override
     void notifyIt() {
         for(int i=1;i<=3;i++) {
-            sender.sendMessage(content);
+            sender.sendMessage("URGENT "+content);
         }
     }
 }
